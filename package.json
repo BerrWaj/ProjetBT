@@ -1,0 +1,15 @@
+{
+  "name": "BluetoothControl",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "socket.io": "0.9.16"
+
+  },
+  "scripts": {
+    "install": "node-gyp configure build",
+    "install-debug": "node-gyp configure build --debug"
+  }
+}
